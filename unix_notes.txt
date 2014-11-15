@@ -185,3 +185,9 @@
   622  rm moving_around.txt
   623  ls
   624  history > moving_around.txt
+
+  #mkdir (mk directory)
+
+  #GIT  to check git configuration (username & email) use "git config --list"
+  # GIT   git notes:  only the salient points
+  
