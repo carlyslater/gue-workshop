@@ -191,3 +191,5 @@
   #GIT  to check git configuration (username & email) use "git config --list"
   # GIT   git notes:  only the salient points
   Git is like a party.
+  Git is a Kawasaki Ninja.  Git is an industrial powertool with only a single shop class in high school.
+  
