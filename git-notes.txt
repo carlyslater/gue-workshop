@@ -1,0 +1,12 @@
+Like choose your own adventure.
+
+If you get too far down one path and go back, then you will have different path.
+
+starts with head and master.
+
+branch off means make a choice, and take the current save point, start from there.
+
+change active branch, gets green & *
+
+
+Head and Master: what's the difference?
