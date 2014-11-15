@@ -190,4 +190,4 @@
 
   #GIT  to check git configuration (username & email) use "git config --list"
   # GIT   git notes:  only the salient points
-  
+  Git is like a party.
