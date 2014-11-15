@@ -1,0 +1,187 @@
+# this is the beginning of Git/Unix workshop history November 15th
+# Secret to GIT: 1) practice practice practice 2) work in teams 3) Cheat Sheets
+  453  cd~
+  454  cd ~
+  455  pwd
+  456  pwd
+  457  cd
+  458  pwd
+  459  mkdir temp
+  460  cd temp
+  461  cd
+  462  pwd
+  463  cd temp
+  464  pwd
+  465  cd
+  466  pwd
+  467  rm -rf temp
+  468  ls
+  469  cd /
+  # Absolute vs. relative paths (from home, or from where you are now)
+  470  pwd
+  471  ls
+  472  ls -t
+  473  ls
+  474  ls -l
+  475  ls -lt
+  476  ls -lrt
+  477  ls -r
+  478  ls -rt
+  479  ls -lrt
+  #note to cris: tree/branch analogy requires a visual representation
+  480  man ls
+  481  man ls
+  #FLAGS note to Cris:  slide 23 has a line that is missing a word
+  # flags -l longform
+  # flags -t time (sorty by)
+  # flags -r sort in reverse order
+  # k lists in kilobytes instead of blocks (couldn't get this to work)
+  # flags -p adds a slash after names of directories
+  # flags --LSCOLOR  this is not the best idea.  it recursively goes through the listings)
+  482  ls -k
+  483  ls -lk
+  484  man ls
+  485  ls -o
+  486  man ls
+  487  ls -p
+  488  man ls
+  489  ls -F
+  490  man ls
+  491  ls --LSCOLOR
+  492  ls -LSCOLOR
+  493  man ls
+  494  fg
+  495  ls man
+  496  ls
+  497  man ls
+  498  cd /
+  499  cd /users/carlyslater
+  500  pwd
+  501  ls
+  502  ls -l
+  503  ls -p
+  # CASE MATTERS:  best practice, just use all lower case
+  # QUESTION: can i change my home directory?
+  504  cd python things
+  505  pwd
+  506  cd python\ things
+  507  pwd
+  508  pwd
+  509  man mv
+  510  fg
+  511  cd ..
+  512  pwd
+  513  mv python\ things python_things
+  514  pwd
+  515  ls
+  516  cd python_things
+  517  ls
+  518  cd ..
+  519  ls
+  520  cd library
+  521  ls
+  522  cd fonts
+  523  ls
+  524  ls -p
+  525  cd ../..
+  526  ls
+  527  cd google\ drive
+  528  ls
+  529  ls -[
+  530  ls -p
+  531  cd events
+  532  ls
+  533  ls -p
+  534  cd gdc
+  535  ls
+  536  cd ..
+  537  ls
+  538  ls -p
+  539  cd tedxrainier
+  540  ls
+  541  cd ..
+  542  cd ../../..
+  543  ls
+  544  cd carlyslater
+  545  pwd
+  546  cd ~
+  547  ls
+  548  cd dropbox
+  549  ls
+  550  ls -p
+  551  cd slate\& Hammer
+  552  cd slate\ &\ hammer
+  553  ls
+  554  cd Slate\ \&\ Hammer/
+  555  ls
+  556  ls -p
+  557  cd QSTNR
+  558  ls
+  559  ls -p
+  560  cd ..
+  561  ls
+  562  cd ../Talks
+  563  pwd
+  564  ls
+  565  cd ../Events
+  566  ls
+  567  cd Carly Birthday
+  568  ls
+  569  cd Ca
+  570  cd Carly\ Birthday/
+  571  ls
+  572  scan 2014\ -\ 39th\ retcon\ reboot/
+  573  man scan
+  574  less 2014\ -\ 39th\ retcon\ reboot/
+  575  cd 2014\ -\ 39th\ retcon\ reboot/
+  576  ls
+  577  less Writing-The-Story-Of-Your-Life.jpg
+  578  o
+  579  cd ~
+  580  ls
+  581  cd Downloads/
+  582  cd ~
+  583  cd
+  584  cd
+  585  ls
+  586  cd library
+  587  ls
+  588  cd calendars
+  589  ls
+  590  ls -[
+  591  ls -p
+  592  cd incoming/
+  593  ls
+  594  ls ~
+  595  ls /
+  596  ls /etc
+  597  ls -p /etc
+  598  ls /etc -p
+  599  ls /etc
+  600  ls /etc -l
+  601  ls -l /etc
+  602  cd ~
+  603  ls
+  604  ls Dropbox -p
+  605  ls -p Dropbox
+  606  cd ...
+  607  cd ../..
+  608  cd ~
+  609  pwd
+  610  history
+  611  history man history
+  612  man history
+  613  history -t
+  #PIPE take the output of one command and makes it an input for the command after the pipe.  Pipe is the straight bar over the backslash button, located directly above the enter key
+  #REDIRECT  take the output of command 1, separate by a ">", and the do things with it after the ">".  For instance "history > moving_arount.txt" takes the output of history and makes it a txt file.  using >> takes the output of "history" and adds it to the end of an existing file that is specified.
+  614  history | less
+  615  fg
+  616  cd
+  617  history > moving_around.txt
+  618  history > less
+  619  ls
+  620  less moving_around.txt
+  621  scan moving_around.txt
+  622  rm moving_around.txt
+  623  ls
+  624  history > moving_around.txt
