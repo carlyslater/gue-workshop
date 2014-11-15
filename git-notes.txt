@@ -10,3 +10,9 @@ change active branch, gets green & *
 
 
 Head and Master: what's the difference?
+
+
+you can swap between branches.
+ssh key means you don't have to re-enter password and username
+
+Q: what happens when you push an inactive branch?
